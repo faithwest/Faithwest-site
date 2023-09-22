@@ -272,3 +272,10 @@ footer {
     padding: 20px; /* Spacing inside the footer */
     text-align: center; /* Center align text */
   }
+  footer a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+
+
+
