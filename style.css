@@ -302,7 +302,27 @@ footer {
     padding: 20px;
     text-align: center;
 }
+/* Style social media icons in the footer */
+footer .social-icons {
+    list-style: none;
+    padding: 0;
+}
 
+footer .social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+footer .social-icons a {
+    color: #333;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* Style icons on hover */
+footer .social-icons a:hover {
+    color: #007bff; /* Change color on hover */
+}
 
 
 
