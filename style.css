@@ -325,23 +325,29 @@ footer .social-icons a:hover {
     color: #007bff; /* Change color on hover */
 }
 
-<<<<<<< HEAD
-/* Footer with a copyright notice */
+/* Footer with multiple columns */
 footer {
     background-color: #333;
     color: #fff;
     padding: 20px;
     text-align: center;
+    display: flex; /* Enable flexbox for columns */
+    justify-content: space-between; /* Space columns evenly */
 }
 
-/* Style the copyright text */
-footer .copyright {
-    font-size: 14px;
+/* Style individual columns */
+footer .column {
+    flex: 1; /* Equal width for each column */
+    margin: 0 10px; /* Add space between columns */
 }
-=======
-
->>>>>>> main
-
+/* Footer with a background image */
+footer {
+    background-image: url('footer-bg.jpg');
+    background-size: cover; /* Adjust background size */
+    color: #fff; /* Text color */
+    padding: 20px;
+    text-align: center;
+}
 
 
 
