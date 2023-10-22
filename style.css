@@ -291,7 +291,8 @@ footer {
 footer {
     background-color: #333; /* Background color */
     color: #fff; /* Text color */
-    padding: 20px; /* Spacing inside the footer */
+    padding: 20px 20px;
+    margin:5px 7px;/* Spacing inside the footer */
     text-align: center; /* Center align text */
   }
   footer a:hover {
@@ -312,10 +313,12 @@ footer a {
 }
 /* Footer with dark background */
 footer {
-    background-color: #222;
+    background-color: #f5f5f5;
     color: #fff;
-    padding: 20px;
+    padding: 10px 10px;
     text-align: center;
+     margin:6px 8px;
+
 }
 
 /* Footer with border */
