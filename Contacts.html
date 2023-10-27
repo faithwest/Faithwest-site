@@ -2,22 +2,110 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us - Kontests</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Contact Us - Coding Contest Website</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+      
+        body {
+          display: flex;
+          justify-content: center;
+          align-items: center ;
+          min-height: 100vh;
+          background: url('/images/con.jpg') no-repeat;
+          background-size: cover;
+        }
+        header {
+            background: #325172;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+        .logo {
+            font-size: 2.5rem;
+            color: #fff;
+        }
+        .navigation {
+            margin-top: 10px;
+            
+        }
+        .navigation a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .btn-register {
+            background: #ff9500;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .container {
+            background: #7fb2e9;
+            padding: 20px;
+            border-radius: 8px 8px;
+            margin: 20px;
+            .navigation a {
+    text-decoration:none ;
+    color: #0e0b0b;
+    position: relative;
+    font-size: 2em;
+    font-weight: 500;
+    margin-left: 40px;
+}
+
+        }
+       
+
+input[type="email" i] {
+    padding-block: 3px;
+    padding-inline: 4px;
+    margin: 4px 4px;
+    border-radius: 4px 4px;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+/* styles for the "Name" and "Message" labels */
+label[for="name"] {
+    color: #333;
+  
+}
+
+label[for="message"] {
+    color: #333;
+
+    
+  }
+
+  </style>
 </head>
 <body>
   <header>
-    <!-- Copy the header content from your main HTML file here -->
-    <nav>
-      <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/about">About</a></li>
-        <li><a href="/contact">Contact</a></li>
-      </ul>
+    <h1 class="logo">Kontests</h1>
+    <nav class="navigation">
+        <a href="index.html">Home</a>
+        <a href="/Contest.html">Contests</a>
+        <a class="active" href="/Contacts.html">Contacts</a>
+        <button class="btn-register">Register</button>
     </nav>
   </header>
   
+<<<<<<< HEAD
+  <section id="contact" class="container">
+    <h2>Contact Us</h2>
+    <p>If you have any questions or need assistance, please feel free to contact us using the form below:</p>
+    <form>
+      <div>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+=======
   <div class="wrapper">
     <div class="contacts">
       <h2>Contact Us</h2>
@@ -47,9 +135,18 @@
           <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
           <a href="#"><img src="linkedIn-icon.png" alt="LinkedIn"></a>
         </div>
+>>>>>>> origin/feature/frontpage
       </div>
-      <p>&copy; 2023 Kontests</p>
-    </div>
-  </footer>
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+      </div>
+      <button class="submit">Submit</button>
+    </form>
+  </section>
 </body>
 </html>
