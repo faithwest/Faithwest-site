@@ -192,8 +192,8 @@ nav ul li a:hover:after {
     padding: 50px 0;
 }
 .work-list {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 40px;
     margin-top: 50px;
 }
@@ -209,40 +209,31 @@ nav ul li a:hover:after {
     display: block;
     transition: transform 0.5s;
  }
- .layer {
-    width: 100%;
-    height: 0;
-    background: linear-gradient(rgba(0,0,0,0.6), #006d77);
-    border-radius: 10px;
+ /*a href links*/
+ .styled-link {
+    text-decoration: none;
+    color: #06acee;
+    font-weight: bold;
+    position: relative;
+  }
+  
+  .styled-link::after {
+    content: "";
+    display: block;
     position: absolute;
     left: 0;
-    bottom: 0;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding: 0 40px;
-    text-align: center;
-    font-size: 14px;
-    transition: height 0.5s;
- }
- .layer h3{
-    margin-bottom: 20px;
-    font-weight: 500;
- }
- .layer a {
-    margin-top: 20px;
-    color: #006d77;
-    text-decoration: none;
-    font-size: 18px;
-    line-height: 60px;
-    background: #fff;
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    text-align: center;
- }
+    bottom: -3px;
+    width: 100%;
+    height: 2px;
+    background-color: #13cdee;
+    transition: width 0.3s;
+  }
+  
+  .styled-link:hover::after {
+    width: 0;
+  }
+  
+  /*a href links*/
  .work:hover {
     transform: scale(1.1);
  
@@ -250,12 +241,12 @@ nav ul li a:hover:after {
  .work:hover .layer {
     height: 100%;
  }
- .btn {
+ .span {
     display: block;
-    margin: 50px auto;
+    margin: 50px 50px;
     width: fit-content;
     border: 1px solid #006d77;
-    padding: 14px 50px;
+    padding: 14px 20px;
     border-radius: 6px;
     text-decoration: none;
     color: #fff;
@@ -265,7 +256,15 @@ nav ul li a:hover:after {
     background: #006d77;
 }
 
-/* Style the footer container */
+.seemore {
+    text-decoration: none;
+    color: #f5f7f8;
+    background-color: rgb(10, 95, 62);
+    margin: 30px 30px;
+    padding:20px 20px;
+    border-radius: 5px;
+}
+/*footer container ----------------------------------------- */
 footer {
     background-color: #333; /* Background color */
     color: #fff; /* Text color */
