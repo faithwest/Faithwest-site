@@ -265,46 +265,29 @@ nav ul li a:hover:after {
     border-radius: 5px;
 }
 /*footer container ----------------------------------------- */
-footer {
-    background-color: #333; /* Background color */
-    color: #fff; /* Text color */
-    padding: 20px 20px;
-    margin:5px 7px;/* Spacing inside the footer */
-    text-align: center; /* Center align text */
-  }
-  footer a:hover {
-    text-decoration: underline; /* Add underline on hover */
-}
-/* Center-align footer content */
+
+/* Footer with a human touch */
 footer {
     background-color: #333;
     color: #fff;
     padding: 20px;
     text-align: center;
-}
-
-/* Center-align footer links */
-footer a {
-    display: inline-block; /* Make links behave as blocks */
-    margin: 0 10px; /* Add space between links */
-}
-/* Footer with dark background */
-footer {
-    background-color: #f5f5f5;
-    color: #fff;
-    padding: 10px 10px;
-    text-align: center;
-     margin:6px 8px;
-
-}
-/* Footer with border */
-footer {
-    background-color: #f5f5f5;
-    border-top: 1px solid #ddd; /* Add a top border */
-    padding: 20px;
-    text-align: center;
-}
-
+    margin: 10px 0; /* A bit of space around the footer */
+    border-top: 1px solid #555; /* Add a subtle top border */
+  }
+  
+  footer a {
+    color: #fff; /* White text for links */
+    text-decoration: none; /* Remove underlines from links */
+    margin: 0 15px; /* Spacing between links */
+    transition: color 0.3s; /* Smooth color transition on hover */
+  
+    &:hover {
+      color: #f0f0f0; /* Slightly change link color on hover */
+      text-decoration: underline; /* Add an underline on hover */
+    }
+  }
+  
 
 
 
