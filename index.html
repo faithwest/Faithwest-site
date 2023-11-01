@@ -155,56 +155,53 @@
  <!--footer------------------------------------------------------------------>
  <footer>
   <div class="footer-content">
+    <div class="work-list">
+      <div class="work">
+        <!-- You can add an image here if needed -->
+      </div>
       <div class="work-list">
-          <div class="work">
-              <!-- <img src="images/work-2.png" alt=""> -->
-          </div>
-          <div class="work-list">
-              <div class="work">
-                  <!-- <img src="images/work-3.png" alt=""> -->
-                  
-              </div>
-              <p>&My Webpage</p>
-              <ul>
-                  <li><a href="#">Privacy Policy</a></li>
-                  <li><a href="#">Terms of Service</a></li>
-                  <li><a href="#">Contact Us</a></li>
-              </ul>
-          </div>
+        <div class="work">
+          <!-- You can add an image here if needed -->
+        </div>
+        <p>&copy; My Webpage</p>
+        <ul>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
       </div>
-      <div class="social-media-icons">
-          <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
-          <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
-          <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
-          <a href="#"><img src="linkedIn-icon.png" alt="LinkedIn"></a>
-      </div>
+    </div>
+    <div class="social-media-icons">
+      <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+      <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+      <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
+      <a href="#"><img src="linkedIn-icon.png" alt="LinkedIn"></a>
+    </div>
   </div>
 </footer>
 
 <section>
   <h2>Contact Information</h2>
-  <p>Contact us for any inquiries </p>
-      <!-- Address information goes here -->
-  </address>
+  <p>Contact us for any inquiries.</p>
+  <!-- Address information goes here -->
 </section>
 
-<div>
-  <h2>Contact Information</h2>
+<section>
+  <h2>Contact Form</h2>
   <p>If you have any questions or need assistance, feel free to contact us:</p>
-</div>
+  <form action="submit_contact.php" method="post">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required><br>
 
-<form action="submit_contact.php" method="post">
-  <label for="name">Name:</label>
-  <input type="text" id="name" name="name" required><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br>
 
-  <label for="email">Email:</label>
-  <input type="email" id="email" name="email" required><br>
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="4" required></textarea><br>
 
-  <label for "message">Message:</label>
-  <textarea id="message" name="message" rows="4" required></textarea><br>
-
-  <input type="submit" value="Submit">
-</form>
+    <input type="submit" value="Submit">
+  </form>
+</section>
 
 <!--end footer------------------------------------------------------------------->
    <script>
