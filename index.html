@@ -155,6 +155,7 @@
  <!--footer------------------------------------------------------------------>
  <footer>
   <div class="footer-content">
+    <h1>CONTACT PAGE</h1>
     <div class="work-list">
       <div class="work">
         <!-- You can add an image here if needed -->
@@ -204,23 +205,5 @@
 </section>
 
 <!--end footer------------------------------------------------------------------->
-   <script>
-
-      var tablinks = document.getElementsByClassName("tab-links");
-      var tabcontents = document.getElementsByClassName("tab-contents");
-
-      function opentab(tabname){
-        for(tablink of tablinks){
-          tablink.classList.remove("active-link")
-        }
-        
-           for(tabcontent of tabcontents){
-          tabcontent.classList.remove("active-tab")
-        }
-        event.currentTarget.classList.add("active-link");
-        document.getElementById(tabname).classList.add("active-tab");
-      }
-   </script>
-  <!--check why my code isnt workin-->
 </body>
 </html>

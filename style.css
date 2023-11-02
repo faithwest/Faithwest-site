@@ -264,16 +264,16 @@ nav ul li a:hover:after {
     padding:20px 20px;
     border-radius: 5px;
 }
-/*footer container ----------------------------------------- */
+/*start ---footer container ----------------------------------------- */
 
 /* Footer with a human touch */
 footer {
-    background-color: #333;
+    background-color: #08213c;
     color: #fff;
     padding: 20px;
     text-align: center;
     margin: 10px 0; /* A bit of space around the footer */
-    border-top: 1px solid #555; /* Add a subtle top border */
+    border-top: 1px solid #fff; /* Add a subtle top border */
   }
   
   footer a {
