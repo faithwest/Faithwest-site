@@ -272,19 +272,19 @@ footer {
     color: #fff;
     padding: 20px;
     text-align: center;
-    margin: 10px 0; /* A bit of space around the footer */
-    border-top: 1px solid #fff; /* Add a subtle top border */
+    margin: 10px 0; 
+    border-top: 1px solid #fff;
   }
   
   footer a {
-    color: #fff; /* White text for links */
-    text-decoration: none; /* Remove underlines from links */
-    margin: 0 15px; /* Spacing between links */
-    transition: color 0.3s; /* Smooth color transition on hover */
+    color: #fff;
+    text-decoration: none; 
+    margin: 0 15px; 
+    transition: color 0.3s;
   
     &:hover {
-      color: #f0f0f0; /* Slightly change link color on hover */
-      text-decoration: underline; /* Add an underline on hover */
+      color: #f0f0f0;
+      text-decoration: underline;
     }
   }
   
